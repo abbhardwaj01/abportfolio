@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-snap-type: y mandatory;
+        }
+        .box{
+            scroll-snap-align: start;
+            color: black;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+            #box1{
+                background-color: aqua;
+                height: 100vh;
+            }
+            #box2{
+                background-color: rgb(217, 255, 0);
+                height: 100vh;
+            }
+            #box3{
+                background-color: rgb(204, 0, 255);
+                height: 100vh;
+            }
+            #box4{
+                background-color: rgb(255, 0, 0);
+                height: 100vh;
+            }
+    </style>
+</head>
+<body>
+
+        <div class="box" id="box1">
+            <h1>hi</h1>
+        </div>
+        <div class="box" id="box2">
+            <h1>hi</h1>
+        </div>
+        <div class="box" id="box3">
+            <h1>hi</h1>
+        </div>
+        <div class="box" id="box4">
+            <h1>hi</h1>
+        </div>
+
+</body>
+</html>
